@@ -1,0 +1,233 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: white;
+	font-family: verdana, arial, sans-serif;
+	font-size: 0.75em;
+	color: #000;
+}
+
+img {
+	border: 0;
+}
+
+#container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+
+
+/*--- header -----------------------------------------------------------------*/
+
+
+#header {
+	width: 800px;
+	position: relative;
+}
+
+#logoWrapper {
+	height: 135px;
+}
+
+#logo {
+	margin: 13px 0 0 15px;
+}
+
+#logox {
+	width: 137px;
+	height: 135px;
+	position: absolute;
+	left: 640px;
+	top: 0px;
+	background: url(images/logo.jpg) no-repeat left top;
+}
+
+.menu {
+	list-style-type: none;
+	overflow: hidden;
+	padding: 0 0 0 1.2em;
+	margin: 0 0 0 0;
+}
+
+.menu li {
+	float: left;
+}
+
+.menu li a {
+	color: #FFF;
+}
+
+.menu li a:hover {
+	/*color: #f08000;*/
+	text-decoration: none;
+	text-shadow: white 0 0 0.1em;
+}
+
+/* float clearing for IE */
+* .menu {
+	height: 1%;
+}
+
+
+#nav {
+	background: #090974; //#C6A16E;
+	margin: 0 7px;
+	text-shadow: gray 0 0 0.1em;
+}
+
+#nav li {
+	font-size: 120%;
+	padding: 0.4em 1.6em 0.4em 0;
+}
+
+#subnav {
+
+	font-size: 100%;
+	margin: 0 7px;
+	background: #0b61a4;//#DDC29D;
+	text-shadow: gray 0 0 0.1em;
+}
+
+#subnav li {
+	padding: 0.3em 1.5em 0.3em 0;
+}
+
+#navWrapper {
+	padding: 0 0 7px 0;
+	width: 800px;
+
+}
+
+
+
+/*--- content ----------------------------------------------------------------*/
+
+
+#contentWrapper {
+
+}
+
+#content {
+	width: 765;
+	padding: 10px 35px 35px 35px;
+	color: #444444;
+	text-align: justify;
+}
+
+hr {
+	margin: 10px 0 10px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	margin: 0 0 0.5em 0;
+}
+
+h1 {
+	font-size: 200%;
+}
+
+.bigtitle {
+	font-weight: normal;
+	margin: 0 0 0.5em 0;
+	font-size: 230%;
+	text-align: center;
+}
+
+h3 {
+	font-size: 140%;
+	text-align: center;
+}
+
+h3 {
+	font-size: 140%;
+	text-align: left;
+}
+
+h4 {
+	font-size: 130%;
+	font-style: italic;
+	text-align: center;
+}
+
+h5 {
+	font-size: 140%;
+	text-align: center;
+}
+
+h6 {
+	font-size: 110%;
+}
+
+p {
+	margin: 0 0 1em 0;
+}
+
+.nomargin {
+	margin: 0;
+}
+
+ul, ol {
+	margin: 0 0 1em 2em;
+}
+
+a {
+	text-decoration: none;
+	color: #00a2ef;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #f09000;
+}
+
+#footer {
+	background: white;
+	border-top: 2px solid #090974;
+	font-size: 90%;
+	color: #FFF;
+	overflow: auto;
+	padding: 0 0 10px 0;
+}
+
+input {
+	margin: 0px 2px 0 2px;
+
+}
+
+.osoba_form {
+	border: 1px solid silver;
+}
+
+.foto {
+	float:right; margin:0px 10px 15px 10px;
+}
+
+.errors {
+	border: 1px solid red;
+	margin-bottom: 12px;
+	color: red;
+	padding: 5px;
+}
+
+.ilustracja {
+	/*float: right;*/
+	margin-left: 10px;
+	padding: 8px 5px 6px 5px;
+	background: #eeeeee;
+	width: 310px;
+}
+
+.ilustracja .podpis {
+	font-size: smaller;
+	margin: 6px 5px 0px 5px;
+}
+
+.sponsor{
+	margin: 8px 8px 8px 8px;
+}
+
